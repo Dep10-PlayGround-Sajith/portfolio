@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sajith Abeygunawardana</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a15f198aca.js" crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img id="logo" src="img/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Sajith</span> <br>Abeygunawardana</h1>
+            </div>
+        </div>
+    </div>
+<!--   ----about ------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Professional Civil Engineer who graduated from the University of Peradeniya with working experience of
+                    one year as a Planning Engineer in Road Construction and one year as a Site Engineer in the Building
+                    Construction Industry. Now I have hands-on the field of Software Engineering which has revolutionary
+                    growth of new technologies and modern solutions for the problems
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI design</span><br>Desktop and Web Application</li>
+                        <li ><span>Web Application</span><br>Web service and Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Software Trainee</span><br>Software Development</li>
+                        <li><span>Planning Engineer(Civil Eng.)</span><br>Access Engineer PLC</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Sc Engineering(Hons.) </span><br>University of Peradeniya</li>
+                        <li><span>Software engineering </span><br>IJSE CMJD programme</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -----------Portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/pos-system.png  " alt="pos-system">
+                <div class="layer">
+                    <h3>Point of Sale System</h3>
+                    <p> The app for supermarket to keep its customers and item details and allows the seller to manage
+                    the selling process with the order details</p>
+                    <a href="https://github.com/Sajith-Abeygunawardana/Pos-system"><span class="material-symbols-outlined">open_in_new</span></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/gallery-app.webp  " alt="gallery-app">
+                <div class="layer">
+                    <h3>Public Gallery App</h3>
+                    <p> A simple application for wallpaper/photos to upload and download as google drive</p>
+                    <a href="https://github.com/Sajith-Abeygunawardana/public-gallery-app"><span class="material-symbols-outlined">open_in_new</span></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/mini-game.png  " alt="mini-game">
+                <div class="layer">
+                    <h3>Mini-Game</h3>
+                    <p> A Simple gaming application for desktop-browser which can be controlled using a keyboard</p>
+                    <a href="https://github.com/Sajith-Abeygunawardana/mini-game"><span class="material-symbols-outlined">open_in_new</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="btn">See more</a>
+</div>
+
+<!-------contact--- ------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p id="emailLink"><span class="material-symbols-outlined">mail</span><a href="https://mail.google.com/mail/">abeygunawardana1995@gmail.com</a></p>
+                <p><span class="material-symbols-outlined">call</span>077-2256106</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sajith-abeygunawardana-3097031a2/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/SajithAbey"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.facebook.com/sajith.abeygunawardana.5/"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div>
+                    <a href="img/sajith-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input name="Name" placeholder="Your Name" required type="text">
+                    <input type="email" name="Email"placeholder="Your Email" required>
+                    <textarea type="text" name="Message" placeholder="Your Message" rows="6"></textarea>
+                    <button id="submit-btn" class="btn btn2" type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <p> Copyright &copy; Sajith Abeygunawardana.  All Rights Reserved.</p>
+</footer>
+</body>
+</html>
