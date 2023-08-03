@@ -360,7 +360,7 @@ nav .fa-solid{
         font-size: 28px;
     }
     nav ul {
-        background-color: rgba(0, 0, 255, 0.7);
+        background-color: rgb(110, 110, 110);
         position: fixed;
         top: 0;
         right: -200px;
